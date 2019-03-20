@@ -1,0 +1,9 @@
+name: era_rl            # energy recycling actuator RL 
+dependencies:
+    - numpy=1.14.2
+    - scipy=1.2.0
+    - matplotlib=3.0.2
+    - pip:
+      - tensorflow==1.7.1
+      - gym==0.9.1
+      - mujoco-py==0.5.7
